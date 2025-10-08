@@ -1,6 +1,8 @@
 
     
 .hero {
+  
+  margin-bottom: 50px;
     height: 100vh ;
   display: flex;
     align-items: center;
@@ -60,5 +62,14 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    
 
+}
+.hero-latest-btn:active{
+    background: #ed8484;
+    transform: scale(0.98);
+    box-shadow: 0px 2px 10px rgba(14, 4, 4, 0.2);
+}
+.hero-latest-btn img{
+    width: 25px;
 }

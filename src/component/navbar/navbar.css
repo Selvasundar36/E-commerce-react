@@ -65,7 +65,7 @@
     background: #eacfcf;
 }
 .nav-cart-count {
-    background-color: #20f70d;
+    background-color: #ff0008;
     color: rgb(10, 10, 10);
     border-radius: 50%;
     padding: 2px 8px;
@@ -74,7 +74,7 @@
     top: -10px;
     left: -10px;
     display: flex;
-    margin-top: -35px;
+    margin-top: -27px;
     margin-left: -55px;
 }
 

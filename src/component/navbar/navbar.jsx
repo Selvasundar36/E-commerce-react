@@ -3,6 +3,7 @@ import'./navbar.css'
 import logo from '../assets/ss fasion logo 1.jpg'
 import cart_icon from '../assets/cart_icon.png'
 import { Link } from 'react-router-dom'
+import loginsignup from '../../pages/LoginSignup'
 const Navbar = () => {
   const[menu,setMenu]=useState("shop");
   
@@ -21,7 +22,7 @@ const Navbar = () => {
         <li onClick={()=>{setMenu("kids")}}><Link style={{textDecoration:'none'}} to="/kids">Kids{menu==="kids"?<hr />:<></>}</Link></li>
       </div>
       <div className="nav-login-cart">
-       <Link to="/login"><button>Login</button></Link>
+       <Link to="/login"><button onClick={()=>{setMenu("login")}}>Login</button></Link>
         <Link to="/cart"><img src={cart_icon} alt="" /></Link>
         <div className="nav-cart-count">0</div>
       </div>
